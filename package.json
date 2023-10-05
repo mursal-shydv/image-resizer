@@ -1,0 +1,37 @@
+{
+  "name": "image-resizer-lambda",
+  "version": "1.0.0",
+  "description": "lambda to resize the image",
+  "main": "app.ts",
+  "scripts": {
+    "dev": "nodemon"
+  },
+  "author": "Mursal <mursal.sheydayev@sitecraft.co>",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "2.1471.0",
+    "dotenv": "16.3.1",
+    "express": "4.18.2",
+    "mongoose": "7.5.4",
+    "multer": "1.4.5-lts.1",
+    "reflect-metadata": "0.1.13",
+    "routing-controllers": "0.10.4",
+    "routing-controllers-openapi": "4.0.0",
+    "sharp": "0.32.6",
+    "swagger-ui-express": "5.0.0",
+    "typedi": "0.10.0"
+  },
+  "devDependencies": {
+    "@types/express": "4.17.18",
+    "@types/mongoose": "5.11.97",
+    "@types/multer": "1.4.8",
+    "@types/node": "20.8.2",
+    "@types/swagger-ui-express": "4.1.4",
+    "@typescript-eslint/eslint-plugin": "6.7.4",
+    "@typescript-eslint/parser": "6.7.4",
+    "eslint": "8.50.0",
+    "prettier": "3.0.3",
+    "ts-node": "10.9.1",
+    "typescript": "5.2.2"
+  }
+}
